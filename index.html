@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="assets/images/f20539ce2267ddbb0746eb9ef25e9efe.jpg">
+    <title>AECS</title>
+    <link href="https://fonts.googleapis.com/css?family=Cinzel:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Macondo+Swash+Caps" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Averia+Serif+Libre" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Macondo" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/fullPage.js-master/dist/fullpage.min.css">
+    <link rel="stylesheet" href="assets/stylesheets/main.css">
+    <link rel="stylesheet" href="assets/fontawesome-free-5.0.8/web-fonts-with-css/css/fontawesome-all.css">
+    <link href="https://unpkg.com/ionicons@4.2.2/dist/css/ionicons.min.css" rel="stylesheet">
+    <script src="https://www.gstatic.com/firebasejs/7.1.0/firebase.js"></script>
+    <script src="assets/stylesheets/JS/firebase.js"></script>
+    <script src="assets/stylesheets/JS/config.js"></script>
+    <script src="assets/stylesheets/JS/main.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <!-- Page Loader -->
+        <div id="page_loader" class="">
+            <div>
+                <div class="icon ion-spin"></div>
+                <p>loading</p>
+            </div>
+        </div>
+        <!-- Page Cover -->
+        <div class="page_cover">
+            <div id="main"></div>
+            <div id="particles-js"></div>
+        </div>
+        <!-- Page Header -->
+        <div id="header">
+            <div id="header1">
+                <a href="#">
+                    <span class="logo"><img src="assets/images/logo.png" alt="Logo"></span>
+                    <span class="text">
+                        <span class="line ab">AECS</span>
+                        <span class="line">Transportation Service in Delhi</span>
+                    </span>
+                </a>
+                <span id="button"><i class="fas fa-bars"></i></span>
+                <input type="checkbox" name="check" id="checkid">
+                <ul id="menu">
+                    <li>
+                        <a href="#home">
+                            <span class="txt">Home</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#about">
+                            <span class="txt">book with us</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#portfolio">
+                            <span class="txt">cargo tracker</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contact">
+                            <span class="txt">contact us</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#faq">
+                            <span class="txt">FAQs</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div id="header2">
+              <a href="admin.html">Admin</a>
+            </div>
+        </div>
+        <!-- Side Sections -->
+        <div id="sections">
+            <div id="navbar">
+                <ul id="qmenu">
+                    <li class="nav-item" data-menuanchor="homepage">
+                        <a href="#home">
+                            <i class="fas fa-home"></i>
+                            <span class="txt">Home</span>
+                        </a>
+                    </li>
+                    <li class="nav-item" data-menuanchor="aboutpage">
+                        <a href="#about">
+                            <i class="fas fa-info-circle"></i>
+                            <span class="txt">Book with us</span>
+                        </a>
+                    </li>
+                    <li class="nav-item" data-menuanchor="portfoliopage">
+                        <a href="#portfolio">
+                            <i class="fas fa-folder-open"></i>
+                            <span class="txt">cargo tracker</span>
+                        </a>
+                    </li>
+                    <li class="nav-item" data-menuanchor="contactpage">
+                        <a href="#contact">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span class="txt">Contact us</span>
+                        </a>
+                    </li>
+                    <li class="nav-item" data-menuanchor="faqpage">
+                        <a href="#faq">
+                            <i class="fas fa-info-circle"></i>
+                            <span class="txt">FAQs</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- Main Section -->
+        <div id="fullpage">
+            <!-- Main Section1: Home -->
+            <div id="home" class="section active" data-anchor="homepage">
+                <div class="h1">
+                    <div class="home-left">
+                        <div class="home-text">
+                            <p>Welcome,</p>
+                            <h2>Aman Express Cargo Services</h2>
+                            <h4>is a leading Fleet Ownership and Transport Contractor that assures safe transporting of
+                                goods and consignments all over the India. The company presents the clients with
+                                one-stop solutions and timely execution of their needs for storage, transportation and
+                                distribution of their valuable goods.</h4>
+                        </div>
+                        <div class="home-button">
+                            <a href="#about">
+                                Get started
+                            </a>
+                        </div>
+                    </div>
+                    <div class="home-right">
+                        <div class="sub-home">
+                            <div class="home-right-1">
+                                <div class="home-right-2">
+                                    <img src="assets/images/logo1.png" alt="Logo">
+                                </div>
+                                <div class="home-right-3">
+                                    <img src="assets/images/selection-779-500x500.png" alt="Logo">
+                                </div>
+                            </div>
+                            <div class="home-right-1">
+                                <div class="home-right-31">
+                                    <img src="assets/images/images.jpg" alt="Logo">
+                                </div>
+                                <div class="home-right-21">
+                                    <img src="assets/images/logo2.png" alt="Logo">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Main Section2: Book with us -->
+            <div id="about" class="section" data-anchor="aboutpage">
+                <div class="about_me">
+                    <div class="content">
+                        <h3>Book with us</h3>
+                        <p>Do you have a cargo that needs to be shipped? Please fill up the form below.</p>
+                        <div class="content-form">
+                            <div class="page">
+                                <div id="1" class="page-trigger active">
+                                    <span class="page-number">
+                                        <span>1</span>
+                                    </span>
+                                    <span class="page-name">Personal Details</span>
+                                </div>
+                                <div id="2" class="page-trigger">
+                                    <span class="page-number">
+                                        <span>2</span>
+                                    </span>
+                                    <span class="page-name">Cargo Details</span>
+                                </div>
+                                <div id="3" class="page-trigger">
+                                    <span class="page-number">
+                                        <span>3</span>
+                                    </span>
+                                    <span class="page-name">Payment Details</span>
+                                </div>
+                            </div>
+                            <div id="personal" class="personal show">
+                                <div class="p1">
+                                    <div class="form-group">
+                                        <label>Pickup Date:</label>
+                                        <input type="date" class="form-control" id="sdate">
+                                        <span id="sreq1" class="hide red">**Required</span>
+                                        <span id="sreq11" class="hide red">**Invalid Date</span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Shipper's Full Name:</label><br>
+                                        <input type="text" class="form-control" id="sname">
+                                        <span id="sreq2" class="hide red">**Required</span>
+                                        <span id="sreq21" class="hide red">**Invalid Name</span>
+                                        <span id="sreq211" class="hide red">**Give Complete Name</span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Company Name:</label><br>
+                                        <input type="text" class="form-control" id="scompany">
+                                        <span id="sreq3" class="hide red">**Required</span>
+                                        <span id="sreq31" class="hide red">**Invalid Name</span>
+                                        <span id="sreq311" class="hide red">**Give Complete Name</span>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Contact No.:" id="sno">
+                                        <span id="sreq4" class="hide red">**Required</span>
+                                        <span id="sreq41" class="hide red">**Invalid Number</span>
+                                        <span id="sreq411" class="hide red">**Invalid Number</span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Email Address:</label><br>
+                                        <input type="email" class="form-control" id="semail">
+                                        <span id="sreq5" class="hide red">**Required</span>
+                                        <span id="sreq51" class="hide red">**Invalid Email</span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Pickup Address:</label><br>
+                                        <input type="text" class="form-control" id="saddr">
+                                        <span id="sreq55" class="hide red">**Required</span>
+                                        <span id="sreq551" class="hide red">**Give Complete Address</span>
+                                    </div>
+                                </div>
+                                <div class="form-group center">
+                                    <button id="next1" class="btn">next</button>
+                                </div>
+                            </div>
+                            <div id="cargo" class="cargo hide">
+                                <div class="p1">
+                                    <div class="form-group">
+                                        <label>Quantity:</label>
+                                        <input type="number" class="form-control" id="squantity">
+                                        <span id="sreq6" class="hide red">**Required</span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Item Description</label><br>
+                                        <input type="text" class="form-control" id="sdes">
+                                        <span id="sreq7" class="hide red">**Required</span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Weight(kg):</label><br>
+                                        <input type="number" class="form-control" id="swei">
+                                        <span id="sreq8" class="hide red">**Required</span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Length(cm):</label><br>
+                                        <input type="number" class="form-control" id="slen">
+                                        <span id="sreq9" class="hide red">**Required</span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Width(cm):</label><br>
+                                        <input type="number" class="form-control" id="swid">
+                                        <span id="sreq10" class="hide red">**Required</span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Breadth(cm):</label><br>
+                                        <input type="number" class="form-control" id="sbrea">
+                                        <span id="sreq111" class="hide red">**Required</span>
+                                    </div>
+                                </div>
+                                <div class="form-group center">
+                                    <button id="next2" class="btn">next</button>
+                                </div>
+                            </div>
+                            <div id="payment" class="payment hide">
+                                <div class="p1">
+                                    <div class="form-group">
+                                        <label>Payment Method:</label>
+                                        <select id="pay">
+                                            <option hidden disabled selected value> -- select an option -- </option>
+                                            <option val="prepaid">Prepaid - Cash, by the shipper</option>
+                                            <option val="freight">Freight Collect - Cash, by the consignee</option>
+                                            <option val="shipper">Collect Shipper - Charged to the shipper</option>
+                                            <option val="other">Other</option>
+                                        </select>
+                                        <span id="sreq12" class="hide red">**Required</span>
+                                    </div>
+                                    <div class="form-group">
+                                        <br>
+                                        <label>Remarks:</label><br>
+                                        <textarea name="remark" id="sremark" cols="40" rows="5"></textarea>
+                                    </div>
+                                </div>
+                                <div class="form-group center">
+                                    <button id="next3" class="btn">Finish</button>
+                                </div>
+                            </div>
+                            <div id="final" class="final hide">
+                                <div class="p1">
+                                    <br>
+                                    <div class="pd"><i class="far fa-check-circle"></i></div>
+                                    <div class="pd1">
+                                        <p>Your request has been sent successfully.</p>
+                                        <h5>Your Registration Number is:</h5>
+                                        <span id="regid"></span>
+                                        <p class="notes">Please note it for future reference.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Main Section4: Cargo Tracker-->
+            <div id="portfolio" class="section" data-anchor="portfoliopage">
+                <div class="track_me">
+                    <div class="content">
+                        <h3>Cargo Tracker</h3>
+                        <div class="cargo">
+                            <div class="cargo1">
+                                <label>Enter Bill number:</label>
+                                <input type="text" class="form-control" id="cargo-id">
+                                <button id="findcargo" class="btn">find cargo</button>
+                            </div>
+                            <span id="req" class="hide red">**Required</span>
+                        </div>
+                        <div id="tr" class="track hide">
+                            Name: <span id="nae"></span><br>
+                            Company Name: <span id="cnae"></span><br>
+                            Contact: <span id="contae"></span><br>
+                            Delivery Date: <span id="ddae"></span>
+                            <table>
+                                <tr>
+                                    <th>Date</th>
+                                    <th>Status</th>
+                                </tr>
+                                <tr>
+                                    <td><span id="dateae"></span></td>
+                                    <td><span id="statusae"></span></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Main Section5: Contact -->
+            <div id="contact" class="section" data-anchor="contactpage">
+                <div class="cont">
+                    <h3>Get in Touch</h3>
+                    <div class="contsec">
+                        <div class="row1">
+                            <h4>If you have any comments or feedback on anything about AECS, please feel free to
+                                contact us. We are always ready to listen to you.</h4>
+                            <div class="exp1">
+                                <span> <i class="fas fa-map-marker-alt"></i> 3 No. Rajendra market, Tis Hazari,
+                                    Delhi,
+                                    110054</span> <br>
+                                <span> <i class="fas fa-mobile"></i> 99995 91955</span><br>
+                                <div id="contact1" class="contact-form show">
+                                    <div class="form-group">
+                                        <label>Send us your Feedback:</label><br>
+                                        <textarea name="rem" id="crem" cols="40" rows="4"></textarea>
+                                        <span id="feedreq" class="hide red">**Required</span>
+                                    </div>
+                                    <button id="submitbtn">Submit</button>
+                                </div>
+                                <div id="contact2" class="contact-form1 hide">
+                                    <i class="far fa-check-circle"></i>
+                                    <h5>Thanks for submitting feedback .</h5>
+                                    <span>Have a Good Day!</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contmap">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14003.466026835438!2d77.2185536!3d28.6637155!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe17b395eeeabe461!2sAman%20Express%20Cargo%20Services!5e0!3m2!1sen!2sin!4v1568146329882!5m2!1sen!2sin"
+                                width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="faq" class="section" data-anchor="faqpage">
+                <div class="cont">
+                    <h3>Frequently Asked Questions</h3>
+                    <div id="faq1" class="contsec show1">
+                        <div class="answers">
+                            <h4>1. Why automate the road manifest and what is the benefit thereof for trade?</h4>
+                            <p>The automation of paper road manifests will greatly contribute to expedite the border
+                                process for compliant and trusted traders. The accelerated movement of trucks across the
+                                border will become possible as a result of electronically receiving both goods
+                                declarations and the cargo declaration prior to the arrival of the goods at the border
+                                post and utilizing this data for risk-profiling and matching purposes.</p>
+                        </div>
+                        <div class="answers">
+                            <h4>2.What exactly does AECS do?</h4>
+                            <p>AECS provides transportation services of all kinds for commercial and industrial customers. We oversee the entire movement door to door, scheduling appointments, fielding questions, “babysitting” your freight so you don’t have to. For over 29 years, we have been expanding our carrier base to meet the ever-changing needs of the shipping public and building our reputation as a dependable and respected name in the transportation industry.</p>
+                        </div>
+                        <div class="answers">
+                            <h4>3. What is a Road Waybill?</h4>
+                            <p>A Road Waybill is a document / invoice issued by a road haulier for the transportation of
+                                goods to a particular destination on board a truck and which serves as proof that the
+                                haulier has received the goods and has undertaken to transport the goods on the terms
+                                and conditions stated in the document. The relevant Road Waybill number(s) must also be
+                                reflected on the electronic RFM.</p>
+                        </div>
+                        <div id="aa1">
+                            <i class="fas fa-angle-down"></i>
+                        </div>
+                    </div>
+                    <div id="faq2" class="contsec hide">
+                        <div id="aa2">
+                            <i class="fas fa-angle-up"></i>
+                        </div>
+                        <div class="answers">
+                            <h4>4. Is there a limit to the number of cargo items?</h4>
+                            <p>No, there is no set limit. With small quantities (hundreds) loads may be generated in
+                                seconds. When quantities get into the thousands it may take several minutes to create a
+                                load, perhaps more if there are many different items. </p>
+                        </div>
+                        <div class="answers">
+                            <h4>5. How do I measure and weigh my packaging for shipment?</h4>
+                            <p> Measuring the weight, length, girth, cubic size, and dimensional weight of your shipment will help decide which shipping services and carrier that will work best for you. Having accurate measurements will also help us correctly classify and price your shipment. <br>
+                                Weight: Standard domestic measure is in pounds.<br>
+                                Length: Measure the longest side of your package, rounding to the nearest inch.<br>
+                                Girth: Measure the width of your package and multiply by two. Add this to the height of your package multiplied by two. (2W + 2H = Girth)<br>
+                                Cubic Size: Length x Width x Height<br>
+                                Dimensional Weight: Dimensional weight is used instead of actual weight when the actual weight of a shipment is disproportionately low compared to the size of the package.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+        <div id="footer">
+            © 2019 AECS. All Rights Reserved.
+        </div>
+    </div>
+
+    <script src="assets/stylesheets/JS/jquery.min.js"></script>
+    <script src="assets/fullPage.js-master/dist/fullpage.extensions.min.js"></script>
+    <script src="assets/fullPage.js-master/vendors/scrolloverflow.min.js"></script>
+    <script src="assets/fullPage.js-master/dist/fullpage.min.js"></script>
+    <script src="assets/stylesheets/JS/fp.js"></script>
+
+</body>
+
+</html>
